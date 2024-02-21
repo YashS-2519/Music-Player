@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <nav>
+            <div class="logo" title="iMusic"><i class="ri-music-2-fill"></i></div>
+            <div class="search" title="Search songs...">
+                <input type="text" placeholder="Search songs...">
+                <div class="search-result">
+                    <i>No result found...</i>
+                </div>
+            </div>
+            <div class="premium"><button title="Upgrade Plan">Upgrade Plan</button></div>
+            <div class="notification" title="Notification"><i class="ri-notification-3-line"></i></div>
+            <div class="profile" title="Profile"><img src="https://images.unsplash.com/photo-1541823709867-1b206113eafd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></i></div>
+        </nav>
+        <div id="shadow"></div>
+        <main>
+            <div id="left">
+                <div class="player">
+                    <div class="pic">
+                        <img src="images/tera_ban_jaunga.png" alt="">
+                    </div>
+                    <div class="controls">
+                        <div id="random"><i class="ri-shuffle-line" title="Random"></i></div>
+                        <div id="prev"><i class="ri-skip-back-fill" title="Back"></i></div>
+                        <div id="play-pause"><i class="ri-play-circle-line" title="Pause/Play"></i></div>
+                        <div id="next"><i class="ri-skip-forward-fill" title="Next"></i></div>
+                        <div id="repeat"><i class="ri-repeat-2-fill" title="Repeat"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div id="right">
+                <div class="list">
+                    <div class="current-song"  title="Current Song">
+                        <div class="current-song-detail">
+                        </div>
+                        <div class="icons">
+                            <i class="ri-circle-fill"></i>
+                            <i class="ri-circle-fill"></i>
+                            <i class="ri-circle-fill"></i>
+                            <i class="ri-circle-line"></i>
+                            <i class="ri-circle-line"></i>
+                        </div>
+                    </div>
+                    <div class="list-song"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
